@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller | Deniel Gardelina</title>
+    <link rel="stylesheet" href="diceroller.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="icon" type="image/png" href="DGlogo.png">
+</head>
+<body>
+    
+    <div class="contain">
+     <span class="blur"></span>
+     <span class="blur"></span>
+    </div>
+
+    
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <label># of Dice:</label>
+        <input type="number" id="numOfDice" value="1" min="1">
+        <button onclick="rollDice()">Roll Dice</button>
+        <div id="diceResult"><p>Dice:Please first roll a dice</p></div>
+    </div>
+
+    <footer>
+        <div class="logo">
+            <img src="DGlogo.png">
+        </div>
+    </footer>
+
+
+    <script src="diceroller.js"></script>
+</body>
+</html>

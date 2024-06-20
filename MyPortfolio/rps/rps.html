@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors | Deniel Gardelina</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="icon" type="image/png" href="DGlogo.png">
+</head>
+<body>
+
+    <h1>ROCK-PAPER-SCISSORS</h1>
+    
+    <div id="choices">
+        <button class="btn" onclick="playGame('rock')">👊🏻</button>
+        <button class="btn" onclick="playGame('paper')">🤚🏻</button>
+        <button class="btn" onclick="playGame('scissors')">✌🏻</button>
+    </div>
+
+    <div id="playerDisplay">PLAYER:</div>
+    <div id="computerDisplay">COMPUTER:</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Player Score:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+
+
+    <script src="rps.js"></script>
+</body>
+</html>
