@@ -1,3 +1,7 @@
+theme: jekyll-theme-minimal
+title: Deniel's Homepage
+description: Bookmark this to keep an eye on my project updates!
+
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
