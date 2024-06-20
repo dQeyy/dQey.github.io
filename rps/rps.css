@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 26%);
+}
+h1{
+    font-size: 3.5rem;
+    color: gray;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: #1d4ed8;
+    cursor: pointer;
+    transition: backgorund-color 0.5s ease;
+}
+.btn:hover{
+    background-color: #3962d5;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+
+.scoreDsiplay{
+    font-size: 5rem;
+    margin: 30px;
+}
+
+.greenText, #playerScoreDisplay{ 
+    color: greenyellow;
+}
+
+.redText, #computerScoreDisplay{
+    color: red;
+}
+
